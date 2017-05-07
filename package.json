@@ -1,0 +1,50 @@
+{
+  "name": "web-node_webhook",
+  "version": "0.1.0",
+  "description": "Webhook base",
+  "main": "bin/index.js",
+  "scripts": {
+    "coverage": "",
+    "test": "",
+    "start": "node bin/server.js",
+    "develop": "./node_modules/.bin/nodemon bin/server.js",
+    "server": "node bin/server.js",
+    "client": "node bin/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebrewery/web-node_template.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "codeBrewery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codebrewery/web-node_webhook/issues"
+  },
+  "homepage": "https://github.com/codebrewery/web-node_webhook#readme",
+  "engines": {
+    "node": "6.10.0"
+  },
+  "devDependencies": {
+    "eslint": "3.19.0",
+    "foreman": "2.0.0",
+    "grunt": "1.0.1",
+    "grunt-changelog": "0.3.2",
+    "nodemon": "1.11.0",
+    "plato": "1.7.0"
+  },
+  "dependencies": {
+    "body-parser": "1.17.1",
+    "express": "4.15.2",
+    "express-jsonschema": "1.1.6",
+    "jsonwebtoken": "5.0.0",
+    "request-json": "0.6.2",
+    "socket.io": "1.7.3",
+    "socket.io-client": "1.7.3",
+    "socketio-jwt": "4.5.0",
+    "winston": "2.3.1",
+    "winston-express-request-logger": "1.0.3"
+  }
+}

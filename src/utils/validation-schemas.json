@@ -1,0 +1,15 @@
+{
+  "login": {
+    "type": "object",
+    "properties": {
+      "app": {
+        "type": "string",
+        "required": true
+      },
+      "token": {
+        "type": "string",
+        "required": true
+      }
+    }
+  }
+}

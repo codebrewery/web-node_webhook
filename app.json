@@ -1,0 +1,10 @@
+{
+  "name": "webhook-base",
+  "description": "Nodejs project template",
+  "repository": "https://github.com/codebrewery/web-node_webhook.git",
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "image": "heroku/nodejs"
+}

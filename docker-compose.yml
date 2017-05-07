@@ -1,0 +1,18 @@
+version: '2'
+services:
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    links:
+      - node1:node1
+      - node2:node2
+  node1:
+    build: .
+    ports:
+      - "8080"
+  node2:
+    build: .
+    ports:
+      - "8080"

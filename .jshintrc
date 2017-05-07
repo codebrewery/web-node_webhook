@@ -1,0 +1,13 @@
+{
+  "camelcase": true,
+  "strict": true,
+  "globalstrict": true,
+  "node": true,
+  "mocha": true,
+  "quotmark": true,
+  "eqeqeq": true,
+  "esversion": 6,
+  "esnext": true,
+  "varstmt": true,
+  "maxlen": 120
+}
