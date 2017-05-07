@@ -4,9 +4,9 @@ This is a lightweight server and client which will enable you to run shell comma
 
 ## Inspiration
 
-This project was created as a hobby project for may 4th (star wars day) which would enable a slack command in the office to have a cardboard r2d2 (with raspberri pi) to express it in r2-d2 speak.
+This project was created as a hobby project for May 4th (StarWars day) which would enable a slack command in the office to have a cardboard r2d2 (with raspberry pi) to express it in r2-d2 speak. I used this python script https://github.com/hug33k/PyTalk-R2D2 for the r2-d2 sounds.
 
-After checking out this open-source repo https://github.com/adnanh/webhook I've decided the architecture was not actually what I wanted. I was looking for a central service for webhooks, and clients would be able to register and configure themselves. For communication between server and client I decided to go for socketio instead of some push/pull setup.
+After checking out this open-source project https://github.com/adnanh/webhook I'd decided the architecture was not actually what I wanted. I was looking for a central service which would consume the webhooks, and clients would be able to register and configure themselves and respond to the webhook requests. For communication between server and client I decided to go for socketio.
 
 Since it's actually a useful tool for automation and deployments, I've decided to open-source it.
 
