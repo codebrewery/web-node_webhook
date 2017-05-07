@@ -42,19 +42,19 @@ function authenticate(callback) {
 }
 
 function addConnectionListeners(socket) {
-  socket.on('disconnect', function () {
+  socket.on('disconnect', ()=> {
     logger.info('Client disconnected');
   });
 
-  socket.on('reconnecting', function (attempt) {
+  socket.on('reconnecting', (attempt)=> {
     logger.info(`Client reconnecting #${attempt}`);
   });
 
-  socket.on('connect_timeout', function () {
+  socket.on('connect_timeout', ()=> {
     logger.info('Connection timeout');
   });
 
-  socket.on('error', function (err) {
+  socket.on('error', (err)=> {
     logger.error(err);
   });
 }

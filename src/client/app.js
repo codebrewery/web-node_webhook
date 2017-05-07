@@ -29,7 +29,7 @@ socketClient.authenticate((socket)=> {
       // Get the hook configuration
       let hook = cachedHooks.get(data.id);
       if (hook !== undefined) {
-        process(hook['execute-command'], hook['command-working-directory'], data.arguments);
+        process(hook['execute-command'], hook['command-working-directory'], data['arguments']);
       }
     });
 });

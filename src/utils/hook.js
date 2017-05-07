@@ -29,14 +29,14 @@ function handle(req, id, callback) {
 }
 
 function add(socket, config) {
-  config.forEach(function (hookConfig) {
+  config.forEach((hookConfig)=> {
     hooks.set(hookConfig.id, {socket: socket, config: hookConfig});
     logger.info(`Added hook for '${hookConfig.id}' ${JSON.stringify(socket.decoded_token)}`);
   });
 }
 
 function remove(socket, config) {
-  config.forEach(function (hookConfig) {
+  config.forEach((hookConfig)=> {
     hooks.delete(hookConfig.id);
     logger.info(`Removed hook for '${hookConfig.id}' ${JSON.stringify(socket.decoded_token)}`);
   });

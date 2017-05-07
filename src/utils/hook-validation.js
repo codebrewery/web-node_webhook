@@ -1,7 +1,7 @@
 'use strict';
 
 function ref(obj, str) {
-  return str.split('.').reduce(function (o, x) {
+  return str.split('.').reduce((o, x)=> {
     return o[x];
   }, obj);
 }

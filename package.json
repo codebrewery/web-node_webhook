@@ -4,6 +4,7 @@
   "description": "Webhook base",
   "main": "bin/index.js",
   "scripts": {
+    "analysis": "./node_modules/.bin/plato -r -d report src",
     "coverage": "",
     "test": "",
     "start": "node bin/server.js",
