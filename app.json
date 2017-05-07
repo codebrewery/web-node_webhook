@@ -4,6 +4,8 @@
   "repository": "https://github.com/codebrewery/web-node_webhook.git",
   "keywords": [
     "node",
+    "socketio",
+    "express",
     "heroku"
   ],
   "image": "heroku/nodejs"

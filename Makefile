@@ -17,6 +17,9 @@ stop:
 destroy:
 	docker-compose down
 
+deps:
+	npm install
+
 test:
 	npm test
 
