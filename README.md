@@ -3,6 +3,8 @@
 
 This is a lightweight server and client which will enable you to run shell commands on an instance via webhooks.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Inspiration
 
 This project was created as a hobby project for May 4th (StarWars day) which would enable a slack command in the office to have a cardboard r2d2 (with raspberry pi) to express it in r2-d2 speak. I used this python script https://github.com/hug33k/PyTalk-R2D2 for the r2-d2 sounds.
