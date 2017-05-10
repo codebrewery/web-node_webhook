@@ -3,7 +3,7 @@
 
 This is a lightweight server and client which will enable you to run shell commands on an instance via webhooks.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?https://github.com/codebrewery/web-node_webhook)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/codebrewery/web-node_webhook)
 
 ## Inspiration
 
