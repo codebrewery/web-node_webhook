@@ -1,10 +1,6 @@
 'use strict';
 
-function ref(obj, str) {
-  return str.split('.').reduce((o, x)=> {
-    return o[x];
-  }, obj);
-}
+const utils = require('./utils');
 
 function getValue(request, config) {
   if (!config.hasOwnProperty('parameter')) {
@@ -12,7 +8,7 @@ function getValue(request, config) {
   }
 
   if (config.parameter.source === 'payload') {
-    return ref(request, config.parameter.name);
+    return utils.ref(request, config.parameter.name);
   }
   return '';
 }

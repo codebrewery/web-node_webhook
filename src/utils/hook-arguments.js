@@ -1,10 +1,6 @@
 'use strict';
 
-function ref(obj, str) {
-  return str.split('.').reduce((o, x)=> {
-    return o[x];
-  }, obj);
-}
+const utils = require('./utils');
 
 function replace(argument, config) {
   let reg = new RegExp(config.replace.char, 'g');
@@ -12,7 +8,7 @@ function replace(argument, config) {
 }
 
 function payload(request, config) {
-  let arg = ref(request, config.name) || '';
+  let arg = utils.ref(request, config.name) || '';
 
   if (config.hasOwnProperty('replace')) {
     return replace(arg, config);
