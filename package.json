@@ -40,7 +40,7 @@
     "body-parser": "1.17.1",
     "express": "4.15.2",
     "express-jsonschema": "1.1.6",
-    "jsonwebtoken": "5.0.0",
+    "jsonwebtoken": "7.4.0",
     "request-json": "0.6.2",
     "socket.io": "1.7.3",
     "socket.io-client": "1.7.3",
