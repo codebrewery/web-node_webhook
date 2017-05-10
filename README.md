@@ -1,4 +1,5 @@
 # Webhook handler
+[![bitHound Overall Score](https://www.bithound.io/github/codebrewery/web-node_webhook/badges/score.svg)](https://www.bithound.io/github/codebrewery/web-node_webhook) [![bitHound Dependencies](https://www.bithound.io/github/codebrewery/web-node_webhook/badges/dependencies.svg)](https://www.bithound.io/github/codebrewery/web-node_webhook/master/dependencies/npm) [![bitHound Code](https://www.bithound.io/github/codebrewery/web-node_webhook/badges/code.svg)](https://www.bithound.io/github/codebrewery/web-node_webhook)
 
 This is a lightweight server and client which will enable you to run shell commands on an instance via webhooks.
 
