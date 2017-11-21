@@ -15,6 +15,7 @@ function handle(req, id, callback) {
   }
 
   if (!hookValidation.validate(req.body, hook.config)) {
+    logger.warn(req, 'invalid request');
     return callback('invalid request');
   }
 
